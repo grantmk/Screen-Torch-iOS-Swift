@@ -413,24 +413,30 @@
 		93CEBF441D142BDD009D1DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = "Screen Torch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gkmicro.Screen-Torch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkmicro.screentorch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		93CEBF451D142BDD009D1DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = "Screen Torch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gkmicro.Screen-Torch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkmicro.screentorch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -503,6 +509,7 @@
 				93CEBF451D142BDD009D1DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93CEBF461D142BDD009D1DE5 /* Build configuration list for PBXNativeTarget "Screen TorchTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				93CEBF481D142BDD009D1DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93CEBF491D142BDD009D1DE5 /* Build configuration list for PBXNativeTarget "Screen TorchUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				93CEBF4B1D142BDD009D1DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
